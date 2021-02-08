@@ -3,8 +3,6 @@
 @import url("reset.css");
 
 /* ####################### layout ####################### */
-body{opacity: 0.3;}
-
 .wrap{margin: 0 auto; max-width: 1240px;}
 
 .header{position: fixed; left: 0; right: 0; top: 0; padding: 20px 0 0; height: 80px; background: #fff; border-bottom: 1px solid #e3e3e3; box-shadow: 0 0 6px rgba(0, 0, 0, 0.2); z-index: 200;}
@@ -27,9 +25,9 @@ body{opacity: 0.3;}
 .tab_box{margin: 0 auto 50px; width: 60%; text-align: center;}
 .tab_box::after{display: block; clear: both; content: "";}
 .tab_box li{float: left; padding: 0 20px; width: calc(100% / 3);}
-.tab_box li a{display: block; background: #f1f1f1; border-radius: 4px; font-family: 'Open Sans', sans-serif; line-height: 2; color: #aaa;}
+.tab_box li a{display: block; background: #f1f1f1; border-radius: 4px; font-family: 'Open Sans', sans-serif; line-height: 2;}
 .tab_box li a span{font-size: 22px;}
-.tab_box li.on a{font-weight: 700; color: #222;}
+.tab_box li.on a{background: #222; color: #fff;}
 
 .tab_contents{}
 
@@ -135,7 +133,12 @@ body{opacity: 0.3;}
 	.tag_box > br{display: none;}
 	
 	.logo_box > div{display: inline; margin: 0 !important;}
-	.logo_box > div > img{margin: 0 10px 10px 0;}
+	.logo_box > div > img{margin: 0 10px 10px 0; width: 40px;}
+	.logo_box .html5{width: 56px;}
+	.logo_box .css3{width: 40px;}
+	.logo_box .jquery{width: 60px;}
+	.logo_box .eclipse{width: 60px;}
+	.logo_box .brackets{width: 42px;}
 	
 	.layer_wrap .layer .layer_title{height: 50px; line-height: 50px; font-size: 16px;}
 	.layer_wrap .layer .layer_con{padding: 20px 20px 60px; max-height: calc(100vh - 100px);}
