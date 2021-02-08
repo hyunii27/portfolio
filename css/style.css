@@ -46,6 +46,10 @@
 .profile dt{position: relative; float: left; clear: left; margin: 0 0 10px; width: 160px;}
 .profile dt::after{position: absolute; right: 10px; top: 8px; display: block; content: ""; width: 1px; height: 10px; background: #e3e3e3;}
 .profile dd{float: left; margin: 0 0 10px; width: calc(100% - 160px);}
+.profile dd.intro p{margin: 5px 0 0;}
+.profile dd .point{position: relative;}
+.profile dd .point::before{position: absolute; left: 0; bottom: 0; display: block; content: ""; width: 100%; height: 8px; background: #FFB400; z-index: 10;}
+.profile dd .point > span{position: relative; padding: 0 4px; z-index: 20;}
 
 .skill{padding-top: 50px; text-align: center;}
 .tag_box{margin: 0 0 50px;}
@@ -126,6 +130,7 @@
 	
 	.profile dl{width: 100%;}
 	.profile dt{float: none; margin: 0; width: 100%; font-weight: 700; font-size: 14px;}
+	.profile dt::after{display: none;}
 	.profile dt > br{display: none;}
 	.profile dd{float: none; width: 100%; font-size: 13px;}
 	
