@@ -22,11 +22,11 @@
 .container{position: relative; margin: 0 auto; padding: 80px 20px 100px; z-index: 100;}
 .container h2{padding: 125px 0 62px; /*background: url("../img/bg_title.png") no-repeat 50% 30%; background-size: 24px;*/ font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 2.3rem; text-align: center;}
 
-.tab_box{overflow: hidden; margin: 0 auto 72px; width: 60%; border: 1px solid #e1e1e1; border-radius: 4px; text-align: center;}
+.tab_box{overflow: hidden; margin: 0 auto 72px; width: 60%; border: 1px solid #e1e1e1; background: #f3f3f3; border-radius: 4px; text-align: center;}
 .tab_box::after{display: block; clear: both; content: "";}
 .tab_box li{float: left; width: calc(100% / 3); border-left: 1px solid #e1e1e1;}
 .tab_box li:first-of-type{border-left: 0;}
-.tab_box li a{display: block; padding: 18px 0; background: #f3f3f3; font-family: 'Roboto', sans-serif; font-size: 15px; color: #8c8c8c;}
+.tab_box li a{display: block; padding: 18px 0; font-family: 'Roboto', sans-serif; font-size: 15px; color: #8c8c8c;}
 .tab_box li.on a{background: #fff; color: #333;}
 
 .tab_contents{}
