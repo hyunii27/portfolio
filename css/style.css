@@ -5,29 +5,29 @@
 /* ####################### layout ####################### */
 .wrap{margin: 0 auto; max-width: 1240px;}
 
-.header{position: fixed; left: 0; right: 0; top: 0; padding: 20px 0 0; height: 80px; background: #fff; border-bottom: 1px solid #e3e3e3; box-shadow: 0 0 6px rgba(0, 0, 0, 0.2); z-index: 200;}
+.header{position: fixed; left: 0; right: 0; top: 0; padding: 20px 0 0; height: 80px; background: #fff; border-bottom: 1px solid #e3e3e3; z-index: 200;}
 .header > .inner{position: relative; margin: 0 auto; max-width: 1200px;}
 .header h1{position: absolute; right: 0; top: 0;}
 .header h1 a{font-family: 'Wendy One', sans-serif; font-size: 2.5rem;}
 .header .gnb{}
 .header .gnb::after{display: block; clear: both; content: "";}
 .header .gnb li{float: left;}
-.header .gnb li a{display: block; padding: 0 30px; font-family: 'Open Sans', sans-serif; line-height: 40px;}
+.header .gnb li a{display: block; padding: 0 30px; line-height: 40px;}
 .header .gnb li.on a{font-weight: 700;}
 
-.footer{padding: 30px; border-top: 1px solid #e3e3e3; font-weight: 300; font-size: 0.75rem; color: #777; text-align: center;}
+.footer{padding: 30px; border-top: 1px solid #e3e3e3; font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 0.75rem; color: #777; text-align: center;}
 
 
 /* ####################### contents ####################### */
-.container{position: relative; margin: 0 auto; padding: 120px 20px 100px; z-index: 100;}
-.container h2{padding: 80px 0; /*background: url("../img/bg_title.png") no-repeat 50% 30%; background-size: 24px;*/ font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 2.3rem; text-align: center;}
+.container{position: relative; margin: 0 auto; padding: 80px 20px 100px; z-index: 100;}
+.container h2{padding: 125px 0 62px; /*background: url("../img/bg_title.png") no-repeat 50% 30%; background-size: 24px;*/ font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 2.3rem; text-align: center;}
 
-.tab_box{margin: 0 auto 50px; width: 60%; text-align: center;}
+.tab_box{overflow: hidden; margin: 0 auto 72px; width: 60%; border: 1px solid #e1e1e1; border-radius: 4px; text-align: center;}
 .tab_box::after{display: block; clear: both; content: "";}
-.tab_box li{float: left; padding: 0 20px; width: calc(100% / 3);}
-.tab_box li a{display: block; background: #f1f1f1; border-radius: 4px; font-family: 'Open Sans', sans-serif; line-height: 2;}
-.tab_box li a span{font-size: 22px;}
-.tab_box li.on a{background: #222; color: #fff;}
+.tab_box li{float: left; width: calc(100% / 3); border-left: 1px solid #e1e1e1;}
+.tab_box li:first-of-type{border-left: 0;}
+.tab_box li a{display: block; padding: 18px 0; background: #f3f3f3; font-family: 'Roboto', sans-serif; font-size: 15px; color: #8c8c8c;}
+.tab_box li.on a{background: #fff; color: #333;}
 
 .tab_contents{}
 
@@ -52,8 +52,10 @@
 .profile dd .point > span{position: relative; padding: 0 4px; z-index: 20;}
 
 .skill{padding-top: 50px; text-align: center;}
+
 .tag_box{margin: 0 0 50px;}
-.tag_box > span{display: inline-block; margin: 0 10px 10px 0; padding: 10px 15px; background: #f1f1f1;}
+.tag_box > span{display: inline-block; margin: 0 10px 10px 0; padding: 10px 15px; background: #f1f1f1; font-family: 'Roboto', sans-serif;}
+
 .logo_box{}
 .logo_box > div{display: inline-block;}
 .logo_box > div > img{display: inline-block; margin-right: 10px; width: 60px; vertical-align: middle;}
@@ -116,18 +118,17 @@
 	.header{padding: 13px 0 0; height: 70px;}
 	.header .gnb li a{padding: 0 24px;line-height: 42px;}
 	
-	.container{padding-top: 80px;}
+	.container{padding: 70px 20px;}
 	.container h2{padding: 50px 0 40px; font-size: 1.8rem;}
 	
-	.tab_box{margin: 0 0 30px; width: 100%;}
-	.tab_box li{padding: 0 3px;}
-	.tab_box li a{font-size: 14px; line-height: 2;}
-	.tab_box li a span{font-size: 18px;}
+	.tab_box{margin: 0 0 40px; width: 100%;}
+	.tab_box li a{font-size: 14px;}
 	
 	.items li{width: 50%;}
 	.items li a{margin: 5px; padding: 20px 15px; letter-spacing: -0.05em;}
 	.items li a > span{margin: 10px 0 0;}
 	
+	.profile{padding-bottom: 0;}
 	.profile dl{width: 100%;}
 	.profile dt{float: none; margin: 0; width: 100%; font-weight: 700; font-size: 14px;}
 	.profile dt::after{display: none;}
@@ -135,6 +136,8 @@
 	.profile dd{float: none; width: 100%; font-size: 13px;}
 	.profile dd .point::before{height: 6px;}
 	.profile dd .point > span{padding: 0 2px;}
+	
+	.skill{padding-top: 20px;}
 	
 	.tag_box > span{font-size: 14px;}
 	.tag_box > br{display: none;}
