@@ -54,7 +54,7 @@
 .skill{padding-top: 50px; text-align: center;}
 
 .tag_box{margin: 0 0 50px;}
-.tag_box > span{display: inline-block; margin: 0 10px 10px 0; padding: 10px 15px; background: #f1f1f1; font-family: 'Roboto', sans-serif;}
+.tag_box > span{display: inline-block; margin: 0 10px 10px 0; padding: 10px 15px; background: #f3f3f3; font-family: 'Roboto', sans-serif;}
 
 .logo_box{}
 .logo_box > div{display: inline-block;}
