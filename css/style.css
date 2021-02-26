@@ -8,25 +8,25 @@
 .header{position: fixed; left: 0; right: 0; top: 0; padding: 20px 0 0; height: 80px; background: #fff; border-bottom: 1px solid #e3e3e3; z-index: 200;}
 .header > .inner{position: relative; margin: 0 auto; max-width: 1200px;}
 .header h1{position: absolute; right: 0; top: 0;}
-.header h1 a{font-family: 'Wendy One', sans-serif; font-size: 2.5rem;}
+.header h1 a{font-family: "Wendy One", sans-serif; font-size: 2.5rem;}
 .header .gnb{}
 .header .gnb::after{display: block; clear: both; content: "";}
 .header .gnb li{float: left;}
 .header .gnb li a{display: block; padding: 0 30px; line-height: 40px;}
 .header .gnb li.on a{font-weight: 700;}
 
-.footer{padding: 30px; border-top: 1px solid #e3e3e3; font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 0.75rem; color: #777; text-align: center;}
+.footer{padding: 30px; border-top: 1px solid #e3e3e3; font-family: "Roboto", sans-serif; font-weight: 300; font-size: 0.75rem; color: #777; text-align: center;}
 
 
 /* ####################### contents ####################### */
 .container{position: relative; margin: 0 auto; padding: 80px 20px 100px; z-index: 100;}
-.container h2{padding: 125px 0 62px; /*background: url("../img/bg_title.png") no-repeat 50% 30%; background-size: 24px;*/ font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 2.3rem; text-align: center;}
+.container h2{padding: 125px 0 62px; font-family: "Montserrat", sans-serif; font-weight: 700; font-size: 2.3rem; text-align: center;}
 
 .tab_box{overflow: hidden; margin: 0 auto 72px; width: 60%; border: 1px solid #e1e1e1; background: #f3f3f3; border-radius: 4px; text-align: center;}
 .tab_box::after{display: block; clear: both; content: "";}
 .tab_box li{float: left; width: calc(100% / 3); border-left: 1px solid #e1e1e1;}
 .tab_box li:first-of-type{border-left: 0;}
-.tab_box li a{display: block; padding: 18px 0; font-family: 'Roboto', sans-serif; font-size: 15px; color: #8c8c8c;}
+.tab_box li a{display: block; padding: 18px 0; font-family: "Roboto", sans-serif; font-size: 15px; color: #8c8c8c;}
 .tab_box li.on a{background: #fff; color: #333;}
 
 .tab_contents{}
@@ -54,7 +54,7 @@
 .skill{padding-top: 50px; text-align: center;}
 
 .tag_box{margin: 0 0 50px;}
-.tag_box > span{display: inline-block; margin: 0 10px 10px 0; padding: 10px 15px; background: #f3f3f3; font-family: 'Roboto', sans-serif;}
+.tag_box > span{display: inline-block; margin: 0 10px 10px 0; padding: 10px 15px; background: #f3f3f3; font-family: "Roboto", sans-serif;}
 
 .logo_box{}
 .logo_box > div{display: inline-block;}
