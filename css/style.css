@@ -3,7 +3,7 @@
 @import url("reset.css");
 
 /* ####################### layout ####################### */
-.wrap{margin: 0 auto; max-width: 1240px;}
+.wrap{margin: 0 auto; background: #F8F8F8;}
 
 .header{position: fixed; left: 0; right: 0; top: 0; padding: 20px 0 0; height: 80px; background: #fff; border-bottom: 1px solid #e3e3e3; z-index: 200;}
 .header > .inner{position: relative; margin: 0 auto; max-width: 1200px;}
@@ -19,22 +19,22 @@
 
 
 /* ####################### contents ####################### */
-.container{position: relative; margin: 0 auto; padding: 80px 20px 100px; z-index: 100;}
+.container{position: relative; margin: 0 auto; padding: 80px 20px 100px; max-width: 1240px; z-index: 100;}
 .container h2{padding: 125px 0 62px; font-family: "Montserrat", sans-serif; font-weight: 700; font-size: 2.3rem; text-align: center;}
 
 .tab_box{overflow: hidden; margin: 0 auto 72px; width: 60%; border: 1px solid #e1e1e1; background: #f3f3f3; border-radius: 4px; text-align: center;}
 .tab_box::after{display: block; clear: both; content: "";}
 .tab_box li{float: left; width: calc(100% / 3); border-left: 1px solid #e1e1e1;}
 .tab_box li:first-of-type{border-left: 0;}
-.tab_box li a{display: block; padding: 18px 0; font-family: "Roboto", sans-serif; font-size: 15px; color: #8c8c8c;}
-.tab_box li.on a{background: #fff; color: #333;}
+.tab_box li a{display: block; padding: 18px 0; background: #fff; font-family: "Roboto", sans-serif; font-size: 15px;}
+.tab_box li.on a{background: #333; color: #fff;}
 
 .tab_contents{}
 
 .items{}
 .items::after{display: block; clear: both; content: "";}
 .items li{float: left; width: 20%; text-align: center;}
-.items li a{display: block; margin: 10px; padding: 25px 20px 20px; border: 1px solid #f1f1f1; border-radius: 5px; box-shadow: 5px 5px 10px 0 rgb(0 0 0 / 8%); font-size: 14px;}
+.items li a{display: block; margin: 10px; padding: 25px 20px 20px; background: #fff; border-radius: 5px; box-shadow: 5px 5px 10px 0 rgb(0 0 0 / 8%); font-size: 14px;}
 .items li a > img{width: 100px; max-width: 100%;}
 .items li a > span{overflow: hidden; display: block; margin: 15px 0 0; text-overflow: ellipsis; white-space: nowrap;}
  
