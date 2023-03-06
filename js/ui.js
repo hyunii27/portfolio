@@ -51,9 +51,9 @@ function show_layer(obj, type){
     $("body").append("<div class='curtain'></div>").addClass("scroll_hidden");
 	
 	if (type == "without")
-		$(".layer_wrap").show().find(".layer").addClass("without").show();
+		$(".layer_wrap").show().addClass("show").find(".layer").addClass("without").show();
     else
-		$(".layer_wrap").show().find(".layer").show();
+		$(".layer_wrap").show().addClass("show").find(".layer").show();
 	
 	var $info = $(obj).find(".info").text().split(","),
 		$logo = $(obj).find(".logo").attr("src"),
@@ -103,7 +103,7 @@ function hide_layer(obj, return_focus){
     if (return_focus)
         $(return_focus).attr("tabindex", "0").focus();
     
-    $(".layer_wrap").hide();
+    $(".layer_wrap").hide().removeClass("show");
     $(".layer_wrap .layer").removeClass("without");
 	$("#layer_popup .pop_img_box").show();
     $("body").removeClass("scroll_hidden").find(".curtain").remove();
