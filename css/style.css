@@ -67,7 +67,7 @@
 
 .curtain{position: fixed; left: 0; top: 0; width: 100%; height: 100%; min-height: 100%; background-color: rgba(0,0,0,0.65); z-index: 10000;}
 .layer_wrap{display: none; overflow-y: auto; position:fixed; left:0; top:0; align-items: center; justify-content: center; width:100%; height:100%; z-index:10010;}
-.layer_wrap.show{display: flex;}
+.layer_wrap.show{display: flex !important;}
 .layer_wrap .layer{display: ; overflow:hidden; position: relative; /* position: absolute; top: 50.1%; left: 50%; transform: translate(-50%, -50.3%); */ width: 1000px; background: #fff; border-radius: 10px; z-index:10020;}
 .layer_wrap .layer .layer_title{height: 60px; line-height: 60px; border-bottom: 1px solid #D7DBDE; font-weight: 700; font-size: 18px; text-align: center;}
 .layer_wrap .layer .layer_con{position: relative; padding: 40px 40px 80px; max-height: 780px; font-size: 15px; line-height: 1.71;}
