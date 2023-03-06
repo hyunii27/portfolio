@@ -5,7 +5,7 @@
 /* ####################### layout ####################### */
 .wrap{margin: 0 auto; background: #F8F8F8;}
 
-.header{position: fixed; left: 0; right: 0; top: 0; padding: 20px 0 0; height: 80px; background: #fff; border-bottom: 1px solid #e3e3e3; z-index: 200;}
+.header{position: fixed; left: 0; right: 0; top: 0; padding: 20px 0 0; height: 80px; background: #fff; border-bottom: 1px solid #D7DBDE; z-index: 200;}
 .header > .inner{position: relative; margin: 0 auto; max-width: 1200px;}
 .header h1{position: absolute; right: 0; top: 0;}
 .header h1 a{font-family: "Wendy One", sans-serif; font-size: 2.5rem;}
@@ -15,7 +15,7 @@
 .header .gnb li a{display: block; padding: 0 30px; line-height: 40px;}
 .header .gnb li.on a{font-weight: 700;}
 
-.footer{padding: 30px; border-top: 1px solid #e3e3e3; font-family: "Roboto", sans-serif; font-weight: 300; font-size: 0.75rem; color: #777; text-align: center;}
+.footer{padding: 30px; border-top: 1px solid #D7DBDE; font-family: "Roboto", sans-serif; font-weight: 300; font-size: 0.75rem; color: #777; text-align: center;}
 
 
 /* ####################### contents ####################### */
@@ -24,10 +24,10 @@
 
 .tab_box{overflow: hidden; margin: 0 auto 72px; width: 60%; border: 1px solid #e1e1e1; background: #f3f3f3; border-radius: 4px; text-align: center;}
 .tab_box::after{display: block; clear: both; content: "";}
-.tab_box li{float: left; width: calc(100% / 3); border-left: 1px solid #e1e1e1;}
+.tab_box li{float: left; width: calc(100% / 3); border-left: 1px solid #D7DBDE;}
 .tab_box li:first-of-type{border-left: 0;}
-.tab_box li a{display: block; padding: 18px 0; font-family: "Roboto", sans-serif; font-size: 15px; color: #8c8c8c;}
-.tab_box li.on a{background: #fff; color: #333;}
+.tab_box li a{display: block; padding: 18px 0; font-family: "Roboto", sans-serif; font-size: 15px; color: #212121;}
+.tab_box li.on a{background: #212121; color: #fff;}
 
 .tab_contents{}
 
