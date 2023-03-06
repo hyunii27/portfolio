@@ -51,9 +51,9 @@ function show_layer(obj, type){
     $("body").append("<div class='curtain'></div>").addClass("scroll_hidden");
 	
 	if (type == "without")
-		$(".layer_wrap").show().addClass("show").find(".layer").addClass("without").show();
+		$(".layer_wrap").addClass("show").find(".layer").addClass("without").show();
     else
-		$(".layer_wrap").show().addClass("show").find(".layer").show();
+		$(".layer_wrap").addClass("show").find(".layer").show();
 	
 	var $info = $(obj).find(".info").text().split(","),
 		$logo = $(obj).find(".logo").attr("src"),
