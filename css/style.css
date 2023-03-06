@@ -86,7 +86,7 @@
 .layer .pop_img_box > img{display: block; margin: 20px auto 0; border: 1px solid #f1f1f1; max-width: 100%;}
 .layer .pop_img_box > img:first-child{margin-top: 0;}
 .layer .btn_box{position: absolute; left: 0; right: 0; bottom: 0; padding: 20px 0; background: #fff; text-align: center;}
-.layer .btn_box button{display: inline-block; width: 100px; height: 40px; border: 1px solid #343a40; border-radius: 2px;}
+.layer .btn_box button{display: inline-block; width: 120px; height: 40px; border: 1px solid #D7DBDE; border-radius: 5px;}
 .layer .btn_box button:hover{}
 
 .pop_logo{position: absolute; left: 40px; top: 47px; border: 1px solid #f1f1f1;}
