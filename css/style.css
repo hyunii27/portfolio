@@ -3,7 +3,7 @@
 @import url("reset.css");
 
 /* ####################### layout ####################### */
-.wrap{margin: 0 auto; max-width: 1240px;}
+.wrap{margin: 0 auto; background: #F8F8F8;}
 
 .header{position: fixed; left: 0; right: 0; top: 0; padding: 20px 0 0; height: 80px; background: #fff; border-bottom: 1px solid #e3e3e3; z-index: 200;}
 .header > .inner{position: relative; margin: 0 auto; max-width: 1200px;}
@@ -19,7 +19,7 @@
 
 
 /* ####################### contents ####################### */
-.container{position: relative; margin: 0 auto; padding: 80px 20px 100px; z-index: 100;}
+.container{position: relative; margin: 0 auto; padding: 80px 20px 100px; max-width: 1240px; z-index: 100;}
 .container h2{padding: 125px 0 62px; font-family: "Montserrat", sans-serif; font-weight: 700; font-size: 2.3rem; text-align: center;}
 
 .tab_box{overflow: hidden; margin: 0 auto 72px; width: 60%; border: 1px solid #e1e1e1; background: #f3f3f3; border-radius: 4px; text-align: center;}
@@ -34,7 +34,7 @@
 .items{}
 .items::after{display: block; clear: both; content: "";}
 .items li{float: left; width: 20%; text-align: center;}
-.items li a{display: block; margin: 10px; padding: 25px 20px 20px; border: 1px solid #f1f1f1; border-radius: 5px; box-shadow: 5px 5px 10px 0 rgb(0 0 0 / 8%); font-size: 14px;}
+.items li a{display: block; margin: 10px; padding: 25px 20px 20px; background: #fff; border-radius: 10px; box-shadow: 5px 5px 10px rgb(0 0 0 / 8%); font-size: 14px;}
 .items li a > img{width: 100px; max-width: 100%;}
 .items li a > span{overflow: hidden; display: block; margin: 15px 0 0; text-overflow: ellipsis; white-space: nowrap;}
  
@@ -67,7 +67,7 @@
 
 .curtain{position: fixed; left: 0; top: 0; width: 100%; height: 100%; min-height: 100%; background-color: rgba(0,0,0,0.4); z-index: 10000;}
 .layer_wrap{display: none; overflow-y: auto; position:fixed; left:0; top:0; width:100%; height:100%; z-index:10010;}
-.layer_wrap .layer{display: ; position: absolute; top: 50.1%; left: 50%; transform: translate(-50%, -50.3%); width: 1000px; background: #fff; box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.5); z-index:10020;}
+.layer_wrap .layer{display: ; overflow:hidden; position: absolute; top: 50.1%; left: 50%; transform: translate(-50%, -50.3%); width: 1000px; background: #fff; border-radius: 10px; box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.5); z-index:10020;}
 .layer_wrap .layer .layer_title{height: 60px; line-height: 60px; border-bottom: 1px solid #e3e3e3; font-weight: 700; font-size: 18px; text-align: center;}
 .layer_wrap .layer .layer_con{position: relative; padding: 40px 40px 80px; max-height: 780px; font-size: 15px; line-height: 1.71;}
 .layer_wrap .layer .layer_close{position: absolute; right: 10px; top: 10px; font-size: 0; line-height: 0;}
@@ -125,7 +125,7 @@
 	.tab_box li a{font-size: 14px;}
 	
 	.items li{width: 50%;}
-	.items li a{margin: 5px; padding: 20px 15px; letter-spacing: -0.05em;}
+	.items li a{margin: 5px; padding: 20px 15px; border-radius: 5px; letter-spacing: -0.05em;}
 	.items li a > span{margin: 10px 0 0;}
 	
 	.profile{padding-bottom: 0;}
