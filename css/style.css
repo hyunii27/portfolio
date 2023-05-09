@@ -3,7 +3,8 @@
 @import url("reset.css");
 
 /* ####################### layout ####################### */
-.wrap{margin: 0 auto; background: #F8F8F8;}
+.wrap{margin: 0 auto;}
+.wrap.career{background: #F8F8F8;}
 
 .header{position: fixed; left: 0; right: 0; top: 0; padding: 20px 0 0; height: 80px; background: #fff; border-bottom: 1px solid #D7DBDE; z-index: 200;}
 .header > .inner{position: relative; margin: 0 auto; max-width: 1200px;}
@@ -38,7 +39,7 @@
 .items li a > img{width: 100px; max-width: 100%;}
 .items li a > span{overflow: hidden; display: block; margin: 15px 0 0; text-overflow: ellipsis; white-space: nowrap;}
  
-.portfolio{background: #fff;}
+.portfolio{}
 
 .profile{padding-bottom: 0;}
 .profile dl{margin: 0 auto; width: 800px; line-height: 1.5;}
@@ -51,7 +52,7 @@
 .profile dd .point::before{position: absolute; left: 0; bottom: 0; display: block; content: ""; width: 100%; height: 8px; background: #FFB400; z-index: 10;}
 .profile dd .point > span{position: relative; padding: 0 4px; z-index: 20;}
 
-.skill{padding-top: 50px; background: #fff; text-align: center;}
+.skill{padding-top: 50px; text-align: center;}
 
 .tag_box{margin: 0 0 50px;}
 .tag_box > span{display: inline-block; margin: 0 10px 10px 0; padding: 10px 15px; background: #f3f3f3; font-family: "Roboto", sans-serif;}
