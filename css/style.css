@@ -38,7 +38,7 @@
 .items li a > img{width: 100px; max-width: 100%;}
 .items li a > span{overflow: hidden; display: block; margin: 15px 0 0; text-overflow: ellipsis; white-space: nowrap;}
  
-.portfolio{}
+.portfolio{background: #fff;}
 
 .profile{padding-bottom: 0;}
 .profile dl{margin: 0 auto; width: 800px; line-height: 1.5;}
@@ -51,7 +51,7 @@
 .profile dd .point::before{position: absolute; left: 0; bottom: 0; display: block; content: ""; width: 100%; height: 8px; background: #FFB400; z-index: 10;}
 .profile dd .point > span{position: relative; padding: 0 4px; z-index: 20;}
 
-.skill{padding-top: 50px; text-align: center;}
+.skill{padding-top: 50px; background: #fff; text-align: center;}
 
 .tag_box{margin: 0 0 50px;}
 .tag_box > span{display: inline-block; margin: 0 10px 10px 0; padding: 10px 15px; background: #f3f3f3; font-family: "Roboto", sans-serif;}
