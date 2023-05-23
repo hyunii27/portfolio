@@ -132,12 +132,14 @@
 	
 	.profile{padding-bottom: 0;}
 	.profile dl{width: 100%;}
-	.profile dt{float: none; margin: 0; width: 100%; font-weight: 700; font-size: 14px;}
+	.profile dt{float: none; margin: 0 0 5px; width: 100%; font-weight: 700; font-size: 14px;}
 	.profile dt::after{display: none;}
 	.profile dt > br{display: none;}
-	.profile dd{float: none; width: 100%; font-size: 13px;}
+	.profile dd{float: none; margin: 0 0 20px; width: 100%; font-size: 13px;}
 	.profile dd .point::before{height: 6px;}
 	.profile dd .point > span{padding: 0 2px;}
+	.profile dd > ol > li{position: relative; padding: 0 0 0 110px;}
+	.profile dd > ol > li > span{position: absolute; left: 0; top: 0;}
 	
 	.skill{padding-top: 20px;}
 	
