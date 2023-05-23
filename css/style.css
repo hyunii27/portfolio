@@ -168,7 +168,7 @@
 	.layer .btn_box{padding: 15px 0;}
 	.layer .btn_box button{height: 30px;}
 	.pop_logo{position: static; display: block; margin: 0 auto 20px; width: 75px;}
-	.pop_category{padding: 0 6px; font-size: 13px;}
+	.pop_category{padding: 2px 5px; font-size: 11px;}
 }
 
 @media screen and (max-width: 359px) {
