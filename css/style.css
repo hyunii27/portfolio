@@ -52,6 +52,7 @@
 .profile dd .point::before{position: absolute; left: 0; bottom: 0; display: block; content: ""; width: 100%; height: 8px; background: #FFB400; z-index: 10;}
 .profile dd .point > span{position: relative; padding: 0 4px; z-index: 20;}
 .profile dd > ol > li > span{display: inline-block; min-width: 140px;}
+.profile dd .date{display: inline-block; min-width: 140px;}
 
 .skill{padding-top: 50px; text-align: center;}
 
@@ -141,6 +142,7 @@
 	.profile dd .point > span{padding: 0 2px;}
 	.profile dd > ol > li{position: relative; padding: 0 0 0 110px;}
 	.profile dd > ol > li > span{position: absolute; left: 0; top: 0; padding: 0; min-width: auto;}
+	.profile dd .date{min-width: 110px;}
 	
 	.skill{padding-top: 20px;}
 	
